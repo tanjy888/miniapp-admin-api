@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication3</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.Activity.GetActivity(System.Int32)">
+            <summary>
+            获取指定活动
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Activity.CreateActivity(WebApplication1.Models.ActivityModel)">
+            <summary>
+            添加活动
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Activity.UpdateActivity">
+            <summary>
+            更新活动
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Activity.DeleteActivity">
+            <summary>
+            删除活动
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Activity.SetActivityEnable(System.Int64)">
+            <summary>
+            启用活动
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Activity.GetActivityType(System.Int32)">
+            <summary>
+            获取活动类型
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Agreement.GetAgreement(System.Int32)">
+            <summary>
+            获取指定用户协议
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Agreement.CreateAgreement(WebApplication1.Models.AgreementModel)">
+            <summary>
+            添加用户协议
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Agreement.UpdateAgreement">
+            <summary>
+            更新用户协议
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Agreement.DeleteAgreement">
+            <summary>
+            删除用户协议
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.News.GetNews(System.Int32)">
+            <summary>
+            获取指定剧集资讯
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.News.CreateNews(WebApplication1.Models.NewsModel)">
+            <summary>
+            添加剧集资讯
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.News.UpdateNews">
+            <summary>
+            更新剧集资讯
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.News.DeleteNews">
+            <summary>
+            删除剧集资讯
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Photos.GetPhotos(System.Int32)">
+            <summary>
+            获取指定剧集壁纸
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Photos.CreatePhotos(WebApplication1.Models.AgreementModel)">
+            <summary>
+            添加剧集壁纸
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Photos.UpdatePhotos">
+            <summary>
+            更新剧集壁纸
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.Photos.DeletePhotos">
+            <summary>
+            删除剧集壁纸
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.ActivityModel.Id">
+            <summary>
+            活动ID
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.ActivityModel.Name">
+            <summary>
+            活动标题
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.ActivityModel.Cover">
+            <summary>
+            活动封面
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.ActivityModel.Link">
+            <summary>
+            活动页面链接
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.AgreementModel.Id">
+            <summary>
+            用户协议ID
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.AgreementModel.Title">
+            <summary>
+            用户协议标题
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.AgreementModel.Description">
+            <summary>
+            用户协议描述
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.NewsModel.Id">
+            <summary>
+            新闻ID
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.NewsModel.Title">
+            <summary>
+            新闻标题
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Models.NewsModel.Description">
+            <summary>
+            新闻内容
+            </summary>
+        </member>
+    </members>
+</doc>
